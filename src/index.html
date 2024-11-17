@@ -8,90 +8,93 @@
     <title>Byte Academy</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+    <header class="header full-width">
+        <nav class="header__nav-menu nav-menu">
+            <ul class="nav-menu__list full-size">
+                <li class="nav-menu__item m-horizontal1">
+                    <a href="#" class="nav-menu__link">Home</a>
                 </li>
-                <li>
-                    <a href="#">Contacts</a>
+                <li class="nav-menu__item m-horizontal1">
+                    <a href="#" class="nav-menu__link">Contacts</a>
                 </li>
-                <li>
-                    <a href="#">About</a>
+                <li class="nav-menu__item m-horizontal1">
+                    <a href="#" class="nav-menu__link">About</a>
                 </li>
-                <li>
-                    <a href="#">Courses</a>
+                <li class="nav-menu__item m-horizontal1">
+                    <a href="#" class="nav-menu__link">Courses</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="promo">
-        <div>
-            <h1>Byte Academy</h1>
-            <h3>The best programming school for your child</h3>
+    <section class="promo full-vh full-width">
+        <div class="promo__wrapper">
+            <h1 class="promo__wrapper_main-title">Byte Academy</h1>
+            <h3 class="promo__wrapper_secondary-title mt20">The best programming school for your child</h3>
         </div>
     </section>
     <section class="about">
-        <h2>About us</h2>
-        <div class="about_wrapper">
-            <img src="img/coder.png" alt="coder">
-            <p>Our IT school is dedicated to providing high-quality education in computer technologies that responds to the modern needs and expectations. We offer a wide range of courses and programs designed by experts in this field to help our students improve their knowledge and skills in IT. Our goal is to inspire our students to become leaders of tomorrow in the field of technology. Thank you for choosing us!</p>
+        <h2 class="about__title">About us</h2>
+        <div class="about__wrapper mt64">
+            <img class="about__img vw25" src="img/coder.png" alt="coder">
+            <p class="about__text vw25 ml32">Our IT school is dedicated to providing high-quality education in computer technologies that responds to the modern needs and expectations. We offer a wide range of courses and programs designed by experts in this field to help our students improve their knowledge and skills in IT. Our goal is to inspire our students to become leaders of tomorrow in the field of technology. Thank you for choosing us!</p>
         </div>
     </section>
     <section class="whyus">
-        <h2>Why us?</h2>
-        <p>There are many reasons why you should choose our IT school. Firstly, we have a team of highly qualified and experienced instructors who are dedicated to providing the best education in computer technologies. We are also proud to offer a wide range of courses and programs that are designed to meet the evolving needs of the IT industry. Additionally, we encourage a creative and collaborative learning environment that fosters critical thinking and problem solving skills. Join us today and take the first step towards a successful career in IT!</p>
-        <img src="img/circle.png" alt="circle">
+        <h2 class="whyus__title">Why us?</h2>
+        <div class="whyus__wrapper mt20">
+            <p class="whyus__text vw50">There are many reasons why you should choose our IT school. Firstly, we have a team of highly qualified and experienced instructors who are dedicated to providing the best education in computer technologies. We are also proud to offer a wide range of courses and programs that are designed to meet the evolving needs of the IT industry. Additionally, we encourage a creative and collaborative learning environment that fosters critical thinking and problem solving skills. Join us today and take the first step towards a successful career in IT!</p>
+            <img class="whyus__img vw25 mt48" src="img/circle.png" alt="circle">
+        </div>
     </section>
     <section class="courses">
-        <h2>Our courses</h2>
-        <h3>Most popular courses:</h3>
-        <div class="row" style="margin-top: 100px;">
-            <div class="courses_card">
-                <img src="img/javaBlack.jpeg" alt="java">
-                <div class="course_info">
-                    <div class="course_title">
+        <h2 class="courses__main-title">Our courses</h2>
+        <h3 class="courses__secondary-title mt48">Most popular courses:</h3>
+        <div class="row mt48">
+            <div class="courses-card width20">
+                <img class="courses-card__img" src="img/javaBlack.jpeg" alt="java">
+                <div class="courses-card__info">
+                    <div class="courses-card__title">
                         <span>Java</span> developer
                     </div>
-                    <div class="course_descr">
+                    <div class="courses-card__descr mt20">
                         Our Java course is designed to provide students with a comprehensive understanding of the Java programming language. With a focus on hands-on learning, students will be...
                     </div>
-                    <button>See more</button>
+                    <button class="courses-card__btn mt20 full-width">See more</button>
                 </div>
             </div>
-            <div class="courses_card">
-                <img src="img/javaBlack.jpeg" alt="java">
-                <div class="course_info">
-                    <div class="course_title">
+            <div class="courses-card width20">
+                <img class="courses-card__img" src="img/javaBlack.jpeg" alt="java">
+                <div class="courses-card__info">
+                    <div class="courses-card__title">
                         <span>Java</span> developer
                     </div>
-                    <div class="course_descr">
+                    <div class="courses-card__descr mt20">
                         Our Java course is designed to provide students with a comprehensive understanding of the Java programming language. With a focus on hands-on learning, students will be...
                     </div>
-                    <button>See more</button>
+                    <button class="courses-card__btn mt20 full-width">See more</button>
                 </div>
             </div>
-            <div class="courses_card">
-                <img src="img/javaBlack.jpeg" alt="java">
-                <div class="course_info">
-                    <div class="course_title">
+            <div class="courses-card width20">
+                <img class="courses-card__img" src="img/javaBlack.jpeg" alt="java">
+                <div class="courses-card__info">
+                    <div class="courses-card__title">
                         <span>Java</span> developer
                     </div>
-                    <div class="course_descr">
+                    <div class="courses-card__descr mt20">
                         Our Java course is designed to provide students with a comprehensive understanding of the Java programming language. With a focus on hands-on learning, students will be...
                     </div>
-                    <button>See more</button>
+                    <button class="courses-card__btn mt20 full-width">See more</button>
                 </div>
             </div>
         </div>
     </section>
-    <footer>
-        <ul>
-            <li>Contacts</li>
-            <li>|</li>
-            <li>Privacy police</li>
+    <footer class="footer">
+        <ul class="footer__nav-menu">
+            <li class="footer__nav-item m-horizontal1">Contacts</li>
+            <li class="footer__nav-item m-horizontal1">|</li>
+            <li class="footer__nav-item m-horizontal1">Privacy police</li>
         </ul>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
